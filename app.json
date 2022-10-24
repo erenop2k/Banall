@@ -3,6 +3,20 @@
     "description": "help you to ban the all memebers from the group",
     "repository": "https://github.com/TIMESISNOTWAITING/Banall",
     "image": "heroku/python",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+     },
+       "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
     "env": {
         "TELEGRAM_TOKEN": {
         "description": "Get this value from @BotFather"
