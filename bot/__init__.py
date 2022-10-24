@@ -42,5 +42,5 @@ def NewChat(bot,message):
 
 @bot.on_message(filters.command("start") & filters.private)
 async def hello(bot, message):
-    await message.reply("Hello, This Is Banall Bot I can Ban Members Within seconds!\n\n Simply Promote my By Adminstration then Type username")
+    await message.reply("Hello, This Is Group Management Bot I can Manage Group Within seconds!\n\n Simply Promote my By Adminstration then Type username")
 
